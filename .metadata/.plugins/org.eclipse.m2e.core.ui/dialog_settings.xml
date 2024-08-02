@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenCheckoutLocationPage">
+		<list key="scmUrl">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\svksh\eclipse-workspace\CucumberFramework"/>
+			<item value="C:\Users\svksh\eclipse-workspace\cucumber1"/>
+			<item value="C:\Users\svksh\eclipse-workspace\Cucumber"/>
+			<item value="C:\Users\svksh\eclipse-workspace\APIAytomationProject"/>
+			<item value="C:\Users\svksh\eclipse-workspace\RestAssuredDemo"/>
+			<item value="C:\Users\svksh\eclipse-workspace\RestAssuredAPI"/>
+			<item value="C:\Users\svksh\eclipse-workspace\JunitWithSelenium"/>
+			<item value="C:\Users\svksh\eclipse-workspace\Session2Junit"/>
+			<item value="C:\Users\svksh\eclipse-workspace\Junit"/>
+			<item value="D:\simplilearn\seleniumJava\session1"/>
+			<item value="C:\Users\svksh\eclipse-workspace\TestNgDemos\src\test\java\com\simplilearn\TestNgDemos\AppTest.java"/>
+			<item value="C:\Users\svksh\eclipse-workspace\seleniumDemos"/>
+			<item value="C:\Users\svksh\eclipse-workspace\org.xtext.example.mydsl.ui.tests"/>
+			<item value="C:\Users\svksh\eclipse-workspace\selenium1"/>
+			<item value="D:\simplilearn\seleniumJava\session1\pom.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.simplilearn.PizzaHutTesting"/>
+			<item value="com.simplilearn.TDD"/>
+			<item value="com.simplilearn.cucumber1"/>
+			<item value="com.simplilearn.docker_selenium"/>
+			<item value="com.simplilearn.JenkinsJava"/>
+			<item value="com.simplilearn.APIAytomationProject"/>
+			<item value="com.simplilearn.RestAssuredDemo"/>
+			<item value="com.simplilearn.PizzaHutJunitAndCucumberTest"/>
+			<item value="com.simplilearn.JunitWithSelenium"/>
+			<item value="com.simplilearn.RestAssuredAPI"/>
+			<item value="com.simplilearn.Session2Junit"/>
+			<item value="com.simplilearn.JunitMaven"/>
+			<item value="com.simplilearn.Junit"/>
+			<item value="com.simplilearn.Session1"/>
+			<item value="com.simplilearn.SimplilearnProject"/>
+		</list>
+		<list key="groupId">
+			<item value="com.simplilearn"/>
+		</list>
+		<list key="artifactId">
+			<item value="PizzaHutTesting"/>
+			<item value="TDD"/>
+			<item value="cucumber1"/>
+			<item value="docker-selenium"/>
+			<item value="JenkinsJava"/>
+			<item value="APIAytomationProject"/>
+			<item value="RestAssuredDemo"/>
+			<item value="PizzaHutJunitAndCucumberTest"/>
+			<item value="JunitWithSelenium"/>
+			<item value="RestAssuredAPI"/>
+			<item value="Session2Junit"/>
+			<item value="JunitMaven"/>
+			<item value="Junit"/>
+			<item value="Session1"/>
+			<item value="SimplilearnProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

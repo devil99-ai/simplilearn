@@ -1,0 +1,5 @@
+package ConfigurationBrowser;
+
+public enum BrowserType {
+
+}

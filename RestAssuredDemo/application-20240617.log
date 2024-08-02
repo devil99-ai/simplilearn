@@ -1,0 +1,10 @@
+2024-06-17 09:50:29:992 [main] DEBUG com.simplilearn.RestAssuredDemo.App DEBUG App:12 - this is debug log
+2024-06-17 09:50:29:994 [main] INFO  com.simplilearn.RestAssuredDemo.App INFO  App:13 - this is info log
+2024-06-17 09:50:29:995 [main] ERROR com.simplilearn.RestAssuredDemo.App ERROR App:14 - this is error log
+2024-06-17 09:50:29:995 [main] FATAL com.simplilearn.RestAssuredDemo.App FATAL App:15 - this is fatal log
+2024-06-17 09:50:29:995 [main] WARN  com.simplilearn.RestAssuredDemo.App WARN  App:16 - this is warn log
+2024-06-17 09:51:25:443 [main] DEBUG com.simplilearn.RestAssuredDemo.App DEBUG App:12 - this is debug log
+2024-06-17 09:51:25:448 [main] INFO  com.simplilearn.RestAssuredDemo.App INFO  App:13 - this is info log
+2024-06-17 09:51:25:448 [main] ERROR com.simplilearn.RestAssuredDemo.App ERROR App:14 - this is error log
+2024-06-17 09:51:25:448 [main] FATAL com.simplilearn.RestAssuredDemo.App FATAL App:15 - this is fatal log
+2024-06-17 09:51:25:450 [main] WARN  com.simplilearn.RestAssuredDemo.App WARN  App:16 - this is warn log

@@ -1,0 +1,8 @@
+package com.simplilearn.E_CommmerceAppTestingApacheUsingCucumber;
+
+import io.cucumber.junit.CucumberOptions;
+
+@CucumberOptions(features= {"C:\\Users\\svksh\\Downloads\\SampleCucumberFramework-master\\SampleCucumberFramework-master\\src\\test\\java\\feature\\Login.feature"},glue= {"classpath:stepdefinition","classpath:helper"},plugin= {"html:target/cucumber-html-report.html"})
+public class TestRunner {
+
+}

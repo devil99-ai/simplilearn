@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-23T08:12:16 IST" name="Practice Suite" finished-at="2024-07-23T08:12:26 IST" duration-ms="10337">
+    <groups>
+    </groups>
+    <test started-at="2024-07-23T08:12:16 IST" name="Test Basics 1" finished-at="2024-07-23T08:12:26 IST" duration-ms="10337">
+      <class name="com.simplilearn.JenkinsJava.GoogleTest">
+        <test-method signature="m1()[pri:0, instance:com.simplilearn.JenkinsJava.GoogleTest@2f7298b]" started-at="2024-07-23T08:12:16 IST" name="m1" finished-at="2024-07-23T08:12:26 IST" duration-ms="10300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+      </class> <!-- com.simplilearn.JenkinsJava.GoogleTest -->
+    </test> <!-- Test Basics 1 -->
+  </suite> <!-- Practice Suite -->
+</testng-results>

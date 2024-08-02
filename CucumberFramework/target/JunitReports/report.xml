@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="15.523" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Amazon page automation" name="Validate Amazon order flow - #1.1" time="15.353">
+<system-out><![CDATA[
+Given User launch Amazon webpage with "https://www.amazon.co.in/"...........passed
+When User see sign up or sign in button.....................................passed
+Then User click on sign in..................................................passed
+And User see login page.....................................................passed
+Then User enter "svkshrm@gmail.com".........................................passed
+And User clicks on continue.................................................passed
+When User click on continue user navigated to password page.................passed
+Then User enter password "Saswati1999@".....................................passed
+And user click on sign in button............................................passed
+Then User navigate to homepage..............................................passed
+And User search for iphone13................................................passed
+Then User clicks on first link..............................................passed
+And User validate...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

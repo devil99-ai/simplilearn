@@ -1,0 +1,30 @@
+Feature: Amazon page automation
+
+  @Smoke
+  Scenario Outline: Validate Amazon order flow
+    Given User launch Amazon webpage with "<URL>"
+    When User see sign up or sign in button
+    Then User click on sign in
+    And User see login page
+    Then User enter "<email id>"
+    And User clicks on continue
+    When User click on continue user navigated to password page
+    Then User enter "<password>"
+    And user click on sign in button
+    Then User navigate to homepage
+    When User wait for location pop up screen
+    Then User click on dismiss button
+    And User search for iphone13
+    Then User clicks on first link
+    And User validate
+    Then User see 2 items are showing under checkout button
+    And User see total price is now more than before
+    Then User remove the Pizza item from Basket
+    And see Price tag got removed from the checkout button
+    And User see 1 item showing in checkout button
+    Then User Clicks on Checkout button
+    And User see minimum order required pop up is getting displayed
+
+    Examples: 
+      | URL                       | email id          | password  |
+      | https://www.amazon.co.in/ | svkshrm@gmail.com | Souvik99@ |

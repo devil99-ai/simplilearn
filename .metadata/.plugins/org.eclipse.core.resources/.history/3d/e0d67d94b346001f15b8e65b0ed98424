@@ -1,0 +1,135 @@
+package com.simplilearn.CucumberFramework;
+
+import java.time.Duration;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.RemoteWebElement;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import junit.framework.Assert;
+
+public class strpDefinations {
+	WebDriver driver;
+	@Given("User launch Amazon webpage with {string}")
+	public void user_launch_amazon_webpage_with(String string) {
+		 WebDriverManager.chromedriver().setup();
+	    driver = new ChromeDriver();
+	   driver.get(string);
+	   driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
+		
+	}
+
+//	@When("User wait for location pop up screen")
+//	public void user_wait_for_location_pop_up_screen() throws InterruptedException {
+//	   driver.wait(1000);
+//	  // String expectedPopUpTitle= "We're showing you items that ship to India. To see items that ship to a different country, change your delivery address";
+//	  // String actualPopUpTitile= driver.findElement(By.xpath("//*[@id=\"glow-toaster-body\"]/span")).getText();
+//	  // Assert.assertEquals(expectedPopUpTitle, actualPopUpTitile);
+//	}
+//
+//	@Then("User click on dismiss button")
+//	public void user_click_on_dismiss_button() {
+//	    //driver.findElement(By.xpath("//*[@id=\"nav-main\"]/div[1]/div/div/div[3]/span[1]/span/input")).click();
+//	}
+
+	@When("User see sign up or sign in button")
+	public void user_see_sign_up_or_sign_in_button() {
+	  String actualButton= driver.findElement(By.xpath("//*[@id=\"nav-signin-tooltip\"]/a/span")).getText();
+	  String ExpectedButton = "Sign in";
+	  Assert.assertEquals(actualButton, ExpectedButton);
+	}
+
+	@Then("User click on sign in")
+	public void user_click_on_sign_in() {
+		driver.findElement(By.xpath("//*[@id=\"nav-signin-tooltip\"]/a/span")).click();
+	}
+
+	@Then("User see login page")
+	public void user_see_login_page() {
+	  String actualTitle = driver.getTitle();
+	  String expectedTitle= "Amazon Sign In";
+	  Assert.assertEquals(actualTitle, expectedTitle);
+	}
+
+	@Then("User enter {string}")
+	public void user_enter(String string)  {
+	    driver.findElement(By.xpath("//*[@id=\"ap_email\"]")).sendKeys(string);
+	}
+
+	@Then("User clicks on continue")
+	public void user_clicks_on_continue() {
+	    driver.findElement(By.xpath("//*[@id=\"continue\"]")).click();
+	}
+
+	@When("User click on continue user navigated to password page")
+	public void user_click_on_continue_user_navigated_to_password_page() throws InterruptedException {
+	    String actualLabel = driver.findElement(By.xpath("//*[@id=\"authportal-main-section\"]/div[2]/div/div[2]/div/form/div/div[1]/div[1]/div[1]/label")).getText();
+	    String ExpectedLabel = "Password";
+	    Assert.assertEquals(actualLabel, ExpectedLabel);
+		
+	}
+
+	@Then("User enter password {string}")
+	public void user_enter_password(String string)  {
+		driver.findElement(By.xpath("//*[@id=\"ap_password\"]")).sendKeys(string);
+	  
+	}
+
+	@Then("user click on sign in button")
+	public void user_click_on_sign_in_button() {
+	   driver.findElement(By.xpath("//*[@id=\"signInSubmit\"]")).click();
+	   
+	}
+//	@Then("user wait for captcha authentication")
+//	public void user_wait_for_captcha_authentication() throws InterruptedException {
+//		driver.wait(10000);
+//	}
+
+	@Then("User navigate to homepage")
+	public void user_navigate_to_homepage(){
+		
+	   String actualPage = driver.getTitle();
+	   String expectedTitle="Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in";
+	   Assert.assertEquals("Came in home page", expectedTitle, actualPage);
+	}
+//	@When("User wait for location pop up screen")
+//	public void user_wait_for_location_pop_up_screen() {
+//	  if (driver.findElement(By.xpath("//*[@id=\"nav-main\"]/div[1]/div/div")).getText()!=null){
+//		  System.out.println(driver.findElement(By.xpath("//*[@id=\"nav-main\"]/div[1]/div/div")).getText());
+//	  }else{
+//		  continue;
+//	  }
+//	}
+//
+//	@Then("User click on dismiss button")
+//	public void user_click_on_dismiss_button() {
+//	    driver.findElement(By.xpath("//*[@id=\"nav-main\"]/div[1]/div/div/div[3]/span[1]")).click();
+//	}
+
+	@Then("User search for iphone13")
+	public void user_search_for_iphone13() {
+	    driver.findElement(By.xpath("//*[@id=\"twotabsearchtextbox\"]")).sendKeys("iphone13");
+	    driver.findElement(By.xpath("//*[@id=\"nav-search-submit-button\"]")).click();
+	}
+
+	@Then("User clicks on first link")
+	public void user_clicks_on_first_link() {
+	   driver.findElement(By.xpath("")).click();;
+	   Thread.sleep(5000);
+	}
+	@Then("User validate")
+	public void user_validate() {
+	 driver.close();   
+	}
+
+}

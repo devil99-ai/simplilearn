@@ -1,0 +1,4 @@
+String requestbody ="{\name\":\"morphus\",\"job\":\"leader\"}";
+
+		
+Response resp = RestAssured.given().contentType(ContentType.JSON).body(APIBody).post(EndPointPost);

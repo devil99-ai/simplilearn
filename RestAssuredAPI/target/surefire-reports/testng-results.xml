@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-09T21:54:52 IST" name="Surefire suite" finished-at="2024-06-09T21:55:02 IST" duration-ms="9348">
+    <groups>
+    </groups>
+    <test started-at="2024-06-09T21:54:52 IST" name="Surefire test" finished-at="2024-06-09T21:55:02 IST" duration-ms="9348">
+      <class name="com.simplilearn.RestAssuredAPI.Test_Delete">
+        <test-method signature="DigestAuth()[pri:0, instance:com.simplilearn.RestAssuredAPI.Test_Delete@1b1426f4]" started-at="2024-06-09T21:54:54 IST" name="DigestAuth" finished-at="2024-06-09T21:54:57 IST" duration-ms="2668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DigestAuth -->
+        <test-method signature="GetSingleUser()[pri:0, instance:com.simplilearn.RestAssuredAPI.Test_Delete@1b1426f4]" started-at="2024-06-09T21:54:57 IST" name="GetSingleUser" finished-at="2024-06-09T21:54:57 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetSingleUser -->
+        <test-method signature="GetSingleUserUsingValidatableResponse()[pri:0, instance:com.simplilearn.RestAssuredAPI.Test_Delete@1b1426f4]" started-at="2024-06-09T21:54:57 IST" name="GetSingleUserUsingValidatableResponse" finished-at="2024-06-09T21:54:58 IST" duration-ms="1211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetSingleUserUsingValidatableResponse -->
+        <test-method signature="GetSingleUser_BDD()[pri:0, instance:com.simplilearn.RestAssuredAPI.Test_Delete@1b1426f4]" started-at="2024-06-09T21:54:58 IST" name="GetSingleUser_BDD" finished-at="2024-06-09T21:54:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetSingleUser_BDD -->
+        <test-method signature="Test()[pri:0, instance:com.simplilearn.RestAssuredAPI.Test_Delete@1b1426f4]" started-at="2024-06-09T21:54:58 IST" name="Test" finished-at="2024-06-09T21:54:59 IST" duration-ms="512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method signature="basicAuth()[pri:0, instance:com.simplilearn.RestAssuredAPI.Test_Delete@1b1426f4]" started-at="2024-06-09T21:54:59 IST" name="basicAuth" finished-at="2024-06-09T21:55:00 IST" duration-ms="851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicAuth -->
+        <test-method signature="testWeather()[pri:0, instance:com.simplilearn.RestAssuredAPI.Test_Delete@1b1426f4]" started-at="2024-06-09T21:55:00 IST" name="testWeather" finished-at="2024-06-09T21:55:01 IST" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWeather -->
+      </class> <!-- com.simplilearn.RestAssuredAPI.Test_Delete -->
+      <class name="com.simplilearn.RestAssuredAPI.TestPatch">
+        <test-method signature="test()[pri:0, instance:com.simplilearn.RestAssuredAPI.TestPatch@1e683a3e]" started-at="2024-06-09T21:54:52 IST" name="test" finished-at="2024-06-09T21:54:54 IST" duration-ms="1986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.simplilearn.RestAssuredAPI.TestPatch -->
+      <class name="com.simplilearn.RestAssuredAPI.Test_PostMethod">
+        <test-method signature="test01()[pri:0, instance:com.simplilearn.RestAssuredAPI.Test_PostMethod@32b260fa]" started-at="2024-06-09T21:55:01 IST" name="test01" finished-at="2024-06-09T21:55:01 IST" duration-ms="549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+      </class> <!-- com.simplilearn.RestAssuredAPI.Test_PostMethod -->
+      <class name="com.simplilearn.RestAssuredAPI.Test_PutMethod">
+        <test-method signature="PutMethod()[pri:0, instance:com.simplilearn.RestAssuredAPI.Test_PutMethod@581ac8a8]" started-at="2024-06-09T21:55:01 IST" name="PutMethod" finished-at="2024-06-09T21:55:02 IST" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PutMethod -->
+      </class> <!-- com.simplilearn.RestAssuredAPI.Test_PutMethod -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
