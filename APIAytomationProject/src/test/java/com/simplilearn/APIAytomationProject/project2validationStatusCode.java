@@ -4,6 +4,7 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.Test;
 
 import com.simplilearn.RestAssuredDemo.App;
@@ -13,7 +14,7 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 public class project2validationStatusCode {
-	private static final org.apache.logging.log4j.Logger logger = LogManager.getLogger(project2validationStatusCode.class);
+	private static final Logger logger = LogManager.getLogger(project2validationStatusCode.class);
 	@Test
 	public void test() {
 		String url ="https://reqres.in";

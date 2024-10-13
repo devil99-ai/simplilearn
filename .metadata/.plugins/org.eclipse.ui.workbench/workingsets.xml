@@ -3,15 +3,35 @@
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1710226715372_0" label="Java Main Sources" name="Java Main Sources"/>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1710226715384_1" label="Java Test Sources" name="Java Test Sources"/>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1717817398693_3" label="project" name="project">
-<item elementID="=PizzaHutJunitAndCucumberTest" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/E-CommerceAppTestingApache" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/E-CommmerceAppTestingApacheUsingCucumber" type="4"/>
 </workingSet>
-<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1721703872210_4" label="cucumber" name="cucumber">
-<item elementID="=PizzaHutJunitAndCucumberTest" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1721703872210_4" label="cucumber" name="cucumber"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1723085844320_5" label="project1" name="project1">
+<item elementID="=pizzahut_project" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/excelTestng" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PizzahutTestNgProject" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/logging_framework" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1725771028029_6" label="Capstone Project" name="Capstone Project">
+<item elementID="=medicare_new" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MedicareTestingProject" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FlyAway_automation" type="4"/>
+<item elementID="=flyawayCucumber" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=FlyAway" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CucumberFrameworkForFlyAway" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SportyShoe" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/seleniumTesting" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1726114964685_9" label="EricomProject" name="EricomProject">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/EricomTestng" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SeleniumDemo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/TestCases" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1710226716367_2" label="Window Working Set" name="Aggregate for window 1710226716367"/>
+<mruList name="EricomProject"/>
+<mruList name="Capstone Project"/>
+<mruList name="project1"/>
 <mruList name="cucumber"/>
 <mruList name="project"/>
-<mruList name="Java Main Sources"/>
 </workingSetManager>

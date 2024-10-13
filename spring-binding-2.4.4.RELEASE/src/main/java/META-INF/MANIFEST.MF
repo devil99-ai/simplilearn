@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-binding
+Implementation-Version: 2.4.4.RELEASE
+

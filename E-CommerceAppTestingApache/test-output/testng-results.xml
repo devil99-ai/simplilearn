@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-02T12:46:49 IST" name="Default suite" finished-at="2024-08-02T12:46:53 IST" duration-ms="4233">
+  <suite started-at="2024-08-08T20:29:16 IST" name="Default suite" finished-at="2024-08-08T20:29:21 IST" duration-ms="5030">
     <groups>
     </groups>
-    <test started-at="2024-08-02T12:46:49 IST" name="Default test" finished-at="2024-08-02T12:46:53 IST" duration-ms="4233">
+    <test started-at="2024-08-08T20:29:16 IST" name="Default test" finished-at="2024-08-08T20:29:21 IST" duration-ms="5030">
       <class name="com.simplilearn.E_CommerceAppTestingApache.HomePage">
-        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.simplilearn.E_CommerceAppTestingApache.HomePage@4b013c76]" started-at="2024-08-02T12:46:49 IST" name="OpenBrowser" finished-at="2024-08-02T12:46:51 IST" duration-ms="2161" status="PASS">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.simplilearn.E_CommerceAppTestingApache.HomePage@795509d9]" started-at="2024-08-08T20:29:16 IST" name="OpenBrowser" finished-at="2024-08-08T20:29:19 IST" duration-ms="2804" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method signature="HomePageTest()[pri:0, instance:com.simplilearn.E_CommerceAppTestingApache.HomePage@4b013c76]" started-at="2024-08-02T12:46:51 IST" name="HomePageTest" finished-at="2024-08-02T12:46:53 IST" duration-ms="1886" status="FAIL">
+        <test-method signature="HomePageTest()[pri:0, instance:com.simplilearn.E_CommerceAppTestingApache.HomePage@795509d9]" started-at="2024-08-08T20:29:19 IST" name="HomePageTest" finished-at="2024-08-08T20:29:21 IST" duration-ms="2046" status="FAIL">
           <exception class="org.openqa.selenium.NoAlertPresentException">
             <message>
               <![CDATA[no such alert
@@ -19,9 +19,9 @@
 Build info: version: '4.22.0', revision: 'c5f3146703*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [97694bb946dae6f7cc849820e12c61f5, getAlertText {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\svksh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54962}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54962/devtoo..., se:cdpVersion: 126.0.6478.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 97694bb946dae6f7cc849820e12c61f5]]>
+Command: [8815eab7b48c293a95d41a7de75eff34, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\svksh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50992}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50992/devtoo..., se:cdpVersion: 126.0.6478.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8815eab7b48c293a95d41a7de75eff34]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
@@ -29,9 +29,9 @@ Session ID: 97694bb946dae6f7cc849820e12c61f5]]>
 Build info: version: '4.22.0', revision: 'c5f3146703*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [97694bb946dae6f7cc849820e12c61f5, getAlertText {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\svksh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54962}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54962/devtoo..., se:cdpVersion: 126.0.6478.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 97694bb946dae6f7cc849820e12c61f5
+Command: [8815eab7b48c293a95d41a7de75eff34, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\svksh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50992}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50992/devtoo..., se:cdpVersion: 126.0.6478.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8815eab7b48c293a95d41a7de75eff34
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -82,7 +82,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.simplilearn.E_CommerceAppTestingApache.HomePage@4b013c76]" started-at="2024-08-02T12:46:53 IST" name="closeBrowser" finished-at="2024-08-02T12:46:53 IST" duration-ms="146" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.simplilearn.E_CommerceAppTestingApache.HomePage@795509d9]" started-at="2024-08-08T20:29:21 IST" name="closeBrowser" finished-at="2024-08-08T20:29:21 IST" duration-ms="151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

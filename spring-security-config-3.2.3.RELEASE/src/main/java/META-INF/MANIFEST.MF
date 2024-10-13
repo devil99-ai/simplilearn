@@ -1,0 +1,265 @@
+Manifest-Version: 1.0
+Export-Package: org.springframework.security.config;version="3.2.3.REL
+ EASE";uses:="org.springframework.beans.factory.config,org.springframe
+ work.beans.factory.xml,org.w3c.dom",org.springframework.security.conf
+ ig.annotation;version="3.2.3.RELEASE",org.springframework.security.co
+ nfig.annotation.authentication;version="3.2.3.RELEASE";uses:="org.spr
+ ingframework.security.authentication,org.springframework.security.con
+ fig.annotation",org.springframework.security.config.annotation.authen
+ tication.builders;version="3.2.3.RELEASE";uses:="org.springframework.
+ security.authentication,org.springframework.security.config.annotatio
+ n,org.springframework.security.config.annotation.authentication,org.s
+ pringframework.security.config.annotation.authentication.configurers.
+ ldap,org.springframework.security.config.annotation.authentication.co
+ nfigurers.provisioning,org.springframework.security.config.annotation
+ .authentication.configurers.userdetails,org.springframework.security.
+ core.userdetails",org.springframework.security.config.annotation.auth
+ entication.configuration;version="3.2.3.RELEASE";uses:="org.springfra
+ mework.beans.factory.annotation,org.springframework.context,org.sprin
+ gframework.context.annotation,org.springframework.security.authentica
+ tion,org.springframework.security.config.annotation,org.springframewo
+ rk.security.config.annotation.authentication.builders,org.springframe
+ work.security.config.annotation.authentication.configurers",org.sprin
+ gframework.security.config.annotation.authentication.configurers;vers
+ ion="3.2.3.RELEASE";uses:="org.springframework.core.annotation,org.sp
+ ringframework.security.config.annotation,org.springframework.security
+ .config.annotation.authentication.builders",org.springframework.secur
+ ity.config.annotation.authentication.configurers.ldap;version="3.2.3.
+ RELEASE";uses:="org.springframework.ldap.core.support,org.springframe
+ work.security.authentication.encoding,org.springframework.security.co
+ nfig.annotation,org.springframework.security.config.annotation.authen
+ tication,org.springframework.security.ldap,org.springframework.securi
+ ty.ldap.userdetails",org.springframework.security.config.annotation.a
+ uthentication.configurers.provisioning;version="3.2.3.RELEASE";uses:=
+ "javax.sql,org.springframework.jdbc.datasource.init,org.springframewo
+ rk.security.config.annotation.authentication.configurers.userdetails,
+ org.springframework.security.core,org.springframework.security.core.u
+ serdetails,org.springframework.security.provisioning",org.springframe
+ work.security.config.annotation.authentication.configurers.userdetail
+ s;version="3.2.3.RELEASE";uses:="org.springframework.security.authent
+ ication.encoding,org.springframework.security.config.annotation,org.s
+ pringframework.security.config.annotation.authentication,org.springfr
+ amework.security.core.userdetails,org.springframework.security.crypto
+ .password",org.springframework.security.config.annotation.configurati
+ on;version="3.2.3.RELEASE";uses:="org.springframework.beans.factory,o
+ rg.springframework.beans.factory.config,org.springframework.context.a
+ nnotation,org.springframework.security.config.annotation",org.springf
+ ramework.security.config.annotation.method.configuration;version="3.2
+ .3.RELEASE";uses:="org.aopalliance.intercept,org.springframework.bean
+ s.factory.annotation,org.springframework.beans.factory.support,org.sp
+ ringframework.context.annotation,org.springframework.core.type,org.sp
+ ringframework.security.access,org.springframework.security.access.exp
+ ression.method,org.springframework.security.access.intercept,org.spri
+ ngframework.security.access.intercept.aopalliance,org.springframework
+ .security.access.method,org.springframework.security.access.prepost,o
+ rg.springframework.security.authentication,org.springframework.securi
+ ty.config.annotation,org.springframework.security.config.annotation.a
+ uthentication.builders,org.springframework.security.config.annotation
+ .authentication.configuration",org.springframework.security.config.an
+ notation.web;version="3.2.3.RELEASE";uses:="javax.servlet,org.springf
+ ramework.http,org.springframework.security.authentication,org.springf
+ ramework.security.config.annotation,org.springframework.security.core
+ .userdetails,org.springframework.security.web.util.matcher",org.sprin
+ gframework.security.config.annotation.web.builders;version="3.2.3.REL
+ EASE";uses:="javax.servlet,org.springframework.beans,org.springframew
+ ork.context,org.springframework.security.access.expression,org.spring
+ framework.security.authentication,org.springframework.security.config
+ .annotation,org.springframework.security.config.annotation.authentica
+ tion.builders,org.springframework.security.config.annotation.web,org.
+ springframework.security.config.annotation.web.configurers,org.spring
+ framework.security.config.annotation.web.configurers.openid,org.sprin
+ gframework.security.core.userdetails,org.springframework.security.web
+ ,org.springframework.security.web.access,org.springframework.security
+ .web.access.intercept,org.springframework.security.web.firewall,org.s
+ pringframework.security.web.util.matcher",org.springframework.securit
+ y.config.annotation.web.configuration;version="3.2.3.RELEASE";uses:="
+ javax.servlet,org.springframework.beans.factory,org.springframework.b
+ eans.factory.annotation,org.springframework.beans.factory.config,org.
+ springframework.context,org.springframework.context.annotation,org.sp
+ ringframework.core,org.springframework.core.annotation,org.springfram
+ ework.core.type,org.springframework.security.access.expression,org.sp
+ ringframework.security.authentication,org.springframework.security.co
+ nfig.annotation,org.springframework.security.config.annotation.authen
+ tication.builders,org.springframework.security.config.annotation.auth
+ entication.configuration,org.springframework.security.config.annotati
+ on.web,org.springframework.security.config.annotation.web.builders,or
+ g.springframework.security.core,org.springframework.security.core.use
+ rdetails,org.springframework.security.web.access,org.springframework.
+ web.accept",org.springframework.security.config.annotation.web.config
+ urers;version="3.2.3.RELEASE";uses:="javax.servlet,javax.servlet.http
+ ,org.springframework.http,org.springframework.security.access,org.spr
+ ingframework.security.access.expression,org.springframework.security.
+ authentication,org.springframework.security.config.annotation,org.spr
+ ingframework.security.config.annotation.web,org.springframework.secur
+ ity.config.http,org.springframework.security.core,org.springframework
+ .security.core.session,org.springframework.security.core.userdetails,
+ org.springframework.security.web,org.springframework.security.web.acc
+ ess,org.springframework.security.web.access.expression,org.springfram
+ ework.security.web.access.intercept,org.springframework.security.web.
+ authentication,org.springframework.security.web.authentication.logout
+ ,org.springframework.security.web.authentication.preauth.j2ee,org.spr
+ ingframework.security.web.authentication.preauth.x509,org.springframe
+ work.security.web.authentication.rememberme,org.springframework.secur
+ ity.web.authentication.session,org.springframework.security.web.conte
+ xt,org.springframework.security.web.csrf,org.springframework.security
+ .web.header,org.springframework.security.web.savedrequest,org.springf
+ ramework.security.web.session,org.springframework.security.web.util.m
+ atcher",org.springframework.security.config.annotation.web.configurer
+ s.openid;version="3.2.3.RELEASE";uses:="org.openid4java.consumer,org.
+ springframework.security.config.annotation,org.springframework.securi
+ ty.config.annotation.web,org.springframework.security.config.annotati
+ on.web.configurers,org.springframework.security.core.userdetails,org.
+ springframework.security.openid,org.springframework.security.web.util
+ .matcher",org.springframework.security.config.annotation.web.servlet.
+ configuration;version="3.2.3.RELEASE";uses:="org.springframework.cont
+ ext.annotation,org.springframework.security.config.annotation.authent
+ ication.configuration,org.springframework.security.config.annotation.
+ web.configuration,org.springframework.web.servlet.config.annotation,o
+ rg.springframework.web.servlet.support",org.springframework.security.
+ config.authentication;version="3.2.3.RELEASE";uses:="org.springframew
+ ork.beans,org.springframework.beans.factory,org.springframework.beans
+ .factory.config,org.springframework.beans.factory.support,org.springf
+ ramework.beans.factory.xml,org.springframework.security.authenticatio
+ n,org.springframework.security.core,org.springframework.security.core
+ .userdetails,org.w3c.dom",org.springframework.security.config.debug;v
+ ersion="3.2.3.RELEASE";uses:="org.springframework.beans,org.springfra
+ mework.beans.factory.config,org.springframework.beans.factory.support
+ ",org.springframework.security.config.http;version="3.2.3.RELEASE";us
+ es:="org.springframework.beans,org.springframework.beans.factory.conf
+ ig,org.springframework.beans.factory.support,org.springframework.bean
+ s.factory.xml,org.springframework.context,org.springframework.core,or
+ g.springframework.security.core.userdetails,org.springframework.secur
+ ity.web,org.w3c.dom",org.springframework.security.config.ldap;version
+ ="3.2.3.RELEASE";uses:="org.springframework.beans,org.springframework
+ .beans.factory.config,org.springframework.beans.factory.support,org.s
+ pringframework.beans.factory.xml,org.springframework.core,org.springf
+ ramework.security.config.authentication,org.w3c.dom",org.springframew
+ ork.security.config.method;version="3.2.3.RELEASE";uses:="org.springf
+ ramework.aop.config,org.springframework.beans,org.springframework.bea
+ ns.factory,org.springframework.beans.factory.config,org.springframewo
+ rk.beans.factory.support,org.springframework.beans.factory.xml,org.sp
+ ringframework.security.access.method,org.springframework.security.aut
+ hentication,org.springframework.security.core,org.w3c.dom"
+Bundle-Vendor: SpringSource
+Implementation-Title: org.springframework.security.config
+Implementation-Version: 3.2.3.RELEASE
+Bundle-Version: 3.2.3.RELEASE
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: Spring Security Namespace Configuration
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.springframework.security.config
+Import-Package: javax.servlet;version="0";resolution:="optional",javax
+ .servlet.http;version="0";resolution:="optional",javax.sql;version="0
+ ";resolution:="optional",org.aopalliance.intercept;version="[1.0.0, 2
+ .0.0)",org.apache.commons.logging;version="[1.0.4, 2.0.0)",org.aspect
+ j.weaver.tools;version="[1.6.0, 1.8.0)";resolution:="optional",org.op
+ enid4java.consumer;version="[0.9.5, 1.0.0)";resolution:="optional",or
+ g.springframework.aop;version="[3.2.8.RELEASE, 3.3.0)";resolution:="o
+ ptional",org.springframework.aop.config;version="[3.2.8.RELEASE, 3.3.
+ 0)";resolution:="optional",org.springframework.aop.framework;version=
+ "[3.2.8.RELEASE, 3.3.0)";resolution:="optional",org.springframework.a
+ op.target;version="[3.2.8.RELEASE, 3.3.0)";resolution:="optional",org
+ .springframework.beans;version="[3.2.8.RELEASE, 3.3.0)",org.springfra
+ mework.beans.factory;version="[3.2.8.RELEASE, 3.3.0)",org.springframe
+ work.beans.factory.annotation;version="[3.2.8.RELEASE, 3.3.0)",org.sp
+ ringframework.beans.factory.config;version="[3.2.8.RELEASE, 3.3.0)",o
+ rg.springframework.beans.factory.parsing;version="[3.2.8.RELEASE, 3.3
+ .0)",org.springframework.beans.factory.support;version="[3.2.8.RELEAS
+ E, 3.3.0)",org.springframework.beans.factory.xml;version="[3.2.8.RELE
+ ASE, 3.3.0)",org.springframework.context;version="[3.2.8.RELEASE, 3.3
+ .0)",org.springframework.context.annotation;version="[3.2.8.RELEASE, 
+ 3.3.0)",org.springframework.core;version="[3.2.8.RELEASE, 3.3.0)",org
+ .springframework.core.annotation;version="[3.2.8.RELEASE, 3.3.0)",org
+ .springframework.core.io;version="[3.2.8.RELEASE, 3.3.0)",org.springf
+ ramework.core.type;version="[3.2.8.RELEASE, 3.3.0)",org.springframewo
+ rk.http;version="[3.2.8.RELEASE, 3.3.0)";resolution:="optional",org.s
+ pringframework.jdbc.datasource.init;version="[3.2.8.RELEASE, 3.3.0)";
+ resolution:="optional",org.springframework.ldap.core;version="[1.3.0,
+ 1.4.0)";resolution:="optional",org.springframework.ldap.core.support;
+ version="[1.3.0,1.4.0)";resolution:="optional",org.springframework.se
+ curity.access;version="[3.2.3.RELEASE, 3.3.0)",org.springframework.se
+ curity.access.annotation;version="[3.2.3.RELEASE, 3.3.0)",org.springf
+ ramework.security.access.expression;version="[3.2.3.RELEASE, 3.3.0)",
+ org.springframework.security.access.expression.method;version="[3.2.3
+ .RELEASE, 3.3.0)",org.springframework.security.access.intercept;versi
+ on="[3.2.3.RELEASE, 3.3.0)",org.springframework.security.access.inter
+ cept.aopalliance;version="[3.2.3.RELEASE, 3.3.0)",org.springframework
+ .security.access.intercept.aspectj;version="[3.2.3.RELEASE, 3.3.0)",o
+ rg.springframework.security.access.method;version="[3.2.3.RELEASE, 3.
+ 3.0)",org.springframework.security.access.prepost;version="[3.2.3.REL
+ EASE, 3.3.0)",org.springframework.security.access.vote;version="[3.2.
+ 3.RELEASE, 3.3.0)",org.springframework.security.authentication;versio
+ n="[3.2.3.RELEASE, 3.3.0)",org.springframework.security.authenticatio
+ n.dao;version="[3.2.3.RELEASE, 3.3.0)",org.springframework.security.a
+ uthentication.encoding;version="[3.2.3.RELEASE, 3.3.0)",org.springfra
+ mework.security.core;version="[3.2.3.RELEASE, 3.3.0)",org.springframe
+ work.security.core.authority;version="[3.2.3.RELEASE, 3.3.0)",org.spr
+ ingframework.security.core.authority.mapping;version="[3.2.3.RELEASE,
+  3.3.0)",org.springframework.security.core.session;version="[3.2.3.RE
+ LEASE, 3.3.0)",org.springframework.security.core.userdetails;version=
+ "[3.2.3.RELEASE, 3.3.0)",org.springframework.security.core.userdetail
+ s.cache;version="[3.2.3.RELEASE, 3.3.0)",org.springframework.security
+ .crypto.bcrypt;version="[3.2.3.RELEASE, 3.3.0)",org.springframework.s
+ ecurity.crypto.password;version="[3.2.3.RELEASE, 3.3.0)",org.springfr
+ amework.security.ldap;version="[3.2.3.RELEASE, 3.3.0)",org.springfram
+ ework.security.ldap.authentication;version="[3.2.3.RELEASE, 3.3.0)",o
+ rg.springframework.security.ldap.search;version="[3.2.3.RELEASE, 3.3.
+ 0)",org.springframework.security.ldap.server;version="[3.2.3.RELEASE,
+  3.3.0)",org.springframework.security.ldap.userdetails;version="[3.2.
+ 3.RELEASE, 3.3.0)",org.springframework.security.openid;version="[3.2.
+ 3.RELEASE, 3.3.0)";resolution:="optional",org.springframework.securit
+ y.provisioning;version="[3.2.3.RELEASE, 3.3.0)",org.springframework.s
+ ecurity.web;version="[3.2.3.RELEASE, 3.3.0)";resolution:="optional",o
+ rg.springframework.security.web.access;version="[3.2.3.RELEASE, 3.3.0
+ )";resolution:="optional",org.springframework.security.web.access.cha
+ nnel;version="[3.2.3.RELEASE, 3.3.0)";resolution:="optional",org.spri
+ ngframework.security.web.access.expression;version="[3.2.3.RELEASE, 3
+ .3.0)";resolution:="optional",org.springframework.security.web.access
+ .intercept;version="[3.2.3.RELEASE, 3.3.0)";resolution:="optional",or
+ g.springframework.security.web.authentication;version="[3.2.3.RELEASE
+ , 3.3.0)";resolution:="optional",org.springframework.security.web.aut
+ hentication.logout;version="[3.2.3.RELEASE, 3.3.0)";resolution:="opti
+ onal",org.springframework.security.web.authentication.preauth;version
+ ="[3.2.3.RELEASE, 3.3.0)";resolution:="optional",org.springframework.
+ security.web.authentication.preauth.j2ee;version="[3.2.3.RELEASE, 3.3
+ .0)";resolution:="optional",org.springframework.security.web.authenti
+ cation.preauth.x509;version="[3.2.3.RELEASE, 3.3.0)";resolution:="opt
+ ional",org.springframework.security.web.authentication.rememberme;ver
+ sion="[3.2.3.RELEASE, 3.3.0)";resolution:="optional",org.springframew
+ ork.security.web.authentication.session;version="[3.2.3.RELEASE, 3.3.
+ 0)";resolution:="optional",org.springframework.security.web.authentic
+ ation.switchuser;version="[3.2.3.RELEASE, 3.3.0)";resolution:="option
+ al",org.springframework.security.web.authentication.ui;version="[3.2.
+ 3.RELEASE, 3.3.0)";resolution:="optional",org.springframework.securit
+ y.web.authentication.www;version="[3.2.3.RELEASE, 3.3.0)";resolution:
+ ="optional",org.springframework.security.web.bind.support;version="[3
+ .2.3.RELEASE, 3.3.0)";resolution:="optional",org.springframework.secu
+ rity.web.context;version="[3.2.3.RELEASE, 3.3.0)";resolution:="option
+ al",org.springframework.security.web.context.request.async;version="[
+ 3.2.3.RELEASE, 3.3.0)";resolution:="optional",org.springframework.sec
+ urity.web.csrf;version="[3.2.3.RELEASE, 3.3.0)";resolution:="optional
+ ",org.springframework.security.web.debug;version="[3.2.3.RELEASE, 3.3
+ .0)";resolution:="optional",org.springframework.security.web.firewall
+ ;version="[3.2.3.RELEASE, 3.3.0)";resolution:="optional",org.springfr
+ amework.security.web.header;version="[3.2.3.RELEASE, 3.3.0)";resoluti
+ on:="optional",org.springframework.security.web.header.writers;versio
+ n="[3.2.3.RELEASE, 3.3.0)";resolution:="optional",org.springframework
+ .security.web.header.writers.frameoptions;version="[3.2.3.RELEASE, 3.
+ 3.0)";resolution:="optional",org.springframework.security.web.jaasapi
+ ;version="[3.2.3.RELEASE, 3.3.0)";resolution:="optional",org.springfr
+ amework.security.web.savedrequest;version="[3.2.3.RELEASE, 3.3.0)";re
+ solution:="optional",org.springframework.security.web.servlet.support
+ .csrf;version="[3.2.3.RELEASE, 3.3.0)";resolution:="optional",org.spr
+ ingframework.security.web.servletapi;version="[3.2.3.RELEASE, 3.3.0)"
+ ;resolution:="optional",org.springframework.security.web.session;vers
+ ion="[3.2.3.RELEASE, 3.3.0)";resolution:="optional",org.springframewo
+ rk.security.web.util;version="[3.2.3.RELEASE, 3.3.0)";resolution:="op
+ tional",org.springframework.security.web.util.matcher;version="[3.2.3
+ .RELEASE, 3.3.0)";resolution:="optional",org.springframework.util;ver
+ sion="[3.2.8.RELEASE, 3.3.0)",org.springframework.util.xml;version="[
+ 3.2.8.RELEASE, 3.3.0)",org.springframework.web.accept;version="[3.2.8
+ .RELEASE, 3.3.0)",org.springframework.web.servlet.config.annotation;v
+ ersion="[3.2.8.RELEASE, 3.3.0)",org.springframework.web.servlet.suppo
+ rt;version="[3.2.8.RELEASE, 3.3.0)",org.w3c.dom;version="0";resolutio
+ n:="optional"
+

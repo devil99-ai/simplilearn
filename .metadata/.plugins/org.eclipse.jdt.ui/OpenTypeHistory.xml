@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
     <typeInfo handle="=Cucumber/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;com.simplilearn.CucumberStepDefinition{testRunner.java[testRunner" modifiers="1" timestamp="1714273366273"/>
+    <typeInfo handle="=E-CommmerceAppTestingApacheUsingCucumber/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;Runner{TestRunner.java[TestRunner" modifiers="1" timestamp="1722912653647"/>
+    <typeInfo handle="=pizzahut_project/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;TestRunner{testRuner.java[testRuner" modifiers="1" timestamp="1724735708945"/>
+    <typeInfo handle="=CucumberFrameworkForFlyAway/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;runner{TestRunner.java[TestRunner" modifiers="1" timestamp="1726385138354"/>
 </typeInfoHistroy>

@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<list key="workingset_selection_history">
+		<item value="EricomProject"/>
+	</list>
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.jdt.ui.java"/>
-			<item value="org.eclipse.jdt.ui.java/org.eclipse.jdt.junit"/>
+			<item value="org.eclipse.php.project.ui"/>
 		</list>
 		<section name="NewWizard.dialogBounds">
 			<item key="DIALOG_X_ORIGIN" value="854"/>
@@ -15,6 +18,10 @@
 		</section>
 	</section>
 	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.e4.ui.importer.wizard"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
 		<section name="ImportExportWizard.dialogBounds">
 			<item key="DIALOG_X_ORIGIN" value="854"/>
 			<item key="DIALOG_Y_ORIGIN" value="353"/>
@@ -26,11 +33,16 @@
 	<section name="PropertyDialog.dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="11"/>
 		<item key="DIALOG_Y_ORIGIN" value="11"/>
-		<item key="DIALOG_WIDTH" value="1394"/>
-		<item key="DIALOG_HEIGHT" value="717"/>
+		<item key="DIALOG_WIDTH" value="2560"/>
+		<item key="DIALOG_HEIGHT" value="1528"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 	<section name="ZipFileImportWizard">
+		<item key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\svksh\OneDrive\Desktop\Capstone\dbcode.zip"/>
+			<item value="C:\Users\svksh\Downloads\Project_References\QAtoQECapstone\Travel Domain_Final\Dummy App.zip"/>
+		</list>
 		<section name="ZipFileImportWizard.dialogBounds">
 			<item key="DIALOG_X_ORIGIN" value="854"/>
 			<item key="DIALOG_Y_ORIGIN" value="353"/>
@@ -40,10 +52,40 @@
 		</section>
 	</section>
 	<section name="WorkbenchPreferenceDialog.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="866"/>
-		<item key="DIALOG_Y_ORIGIN" value="11"/>
+		<item key="DIALOG_X_ORIGIN" value="91"/>
+		<item key="DIALOG_Y_ORIGIN" value="-272"/>
 		<item key="DIALOG_WIDTH" value="850"/>
 		<item key="DIALOG_HEIGHT" value="1199"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="EditorSelectionDialog">
+		<item key="EditorSelectionDialog.STORE_ID_FILE_EXTENSION" value="apache-html-report"/>
+		<item key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL" value="false"/>
+		<item key="EditorSelectionDialog.STORE_ID_DESCR" value="org.eclipse.ui.browser.editor"/>
+	</section>
+	<section name="FileSystemImportWizard">
+		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_VIRTUAL_FOLDERS_ID" value="true"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_LINKS_IN_WORKSPACE_ID" value="false"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_PATH_VARIABLE_SELECTED_ID" value="false"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\svksh\Downloads\ATE CAPSTONE Project_References1\Project_References1\QAtoQECapstone\Ecommerce\SportyShoes"/>
+			<item value="C:\Users\svksh\Downloads\Project_References\QAtoQECapstone\Travel Domain_Final\Dummy App\Dummy App"/>
+		</list>
+		<section name="FileSystemImportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="854"/>
+			<item key="DIALOG_Y_ORIGIN" value="353"/>
+			<item key="DIALOG_WIDTH" value="995"/>
+			<item key="DIALOG_HEIGHT" value="889"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+	<section name="InstallationDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="104"/>
+		<item key="DIALOG_Y_ORIGIN" value="-222"/>
+		<item key="DIALOG_WIDTH" value="1162"/>
+		<item key="DIALOG_HEIGHT" value="1213"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>

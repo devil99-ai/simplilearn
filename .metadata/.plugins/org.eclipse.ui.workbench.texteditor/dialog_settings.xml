@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value=""/>
+		<item key="selection" value="Take"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="List"/>
-			<item value="log"/>
-			<item value="groovy-xml"/>
-			<item value="grt"/>
-			<item value="key"/>
-			<item value="call"/>
-			<item value="401"/>
-			<item value="maven-surefire-plugin"/>
-			<item value="SLF4J"/>
-			<item value="rest"/>
-			<item value="userDetails"/>
-			<item value="loginResult"/>
-			<item value="plugin"/>
-			<item value="customer"/>
-			<item value="customr"/>
+			<item value="take"/>
+			<item value="takesnapshot."/>
+			<item value="takesnapshot"/>
+			<item value="das"/>
+			<item value="/html/body/app-root/app-frame/div[1]/div[2]/app-shield-dashboard/div/div/div/div[2]/app-minutes-per-day-bar-chart/div/app-bar-chart/div/div[1]/svg"/>
+			<item value="/html/body/app-root/app-frame/div[1]/div[2]/app-shield-dashboard/div/div/div/div[2]/app-sessions-per-day-bar-chart/div/app-bar-chart/div/div[1]/svg"/>
+			<item value="/html/body/app-root/app-frame/div[1]/div[2]/app-shield-dashboard/div/div/div/div[1]/button/span[1]/mat-icon"/>
+			<item value="/html/body/app-root/app-frame/div[1]/div[2]/app-shield-dashboard/div/div/div[2]/div/div[1]/button/span[1]/mat-icon"/>
+			<item value="junit"/>
+			<item value="com.mysql.jdbc.Driver"/>
+			<item value="localhost"/>
+			<item value="web"/>
+			<item value="start"/>
+			<item value="common"/>
+			<item value="avens"/>
 		</list>
 		<list key="replacehistory">
 			<item value="employee"/>
@@ -31,8 +31,8 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="1645"/>
-		<item key="DIALOG_Y_ORIGIN" value="218"/>
+		<item key="DIALOG_X_ORIGIN" value="1723"/>
+		<item key="DIALOG_Y_ORIGIN" value="94"/>
 		<item key="DIALOG_WIDTH" value="511"/>
 		<item key="DIALOG_HEIGHT" value="646"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>

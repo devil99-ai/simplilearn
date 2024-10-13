@@ -14,21 +14,21 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\svksh\eclipse-workspace\SeleniumDemo"/>
+			<item value="C:\Users\svksh\eclipse-workspace\FlyAway_automation"/>
+			<item value="C:\Users\svksh\eclipse-workspace\MedicareTestingProject"/>
+			<item value="C:\Users\svksh\eclipse-workspace\FlyAway"/>
+			<item value="C:\Users\svksh\eclipse-workspace\PizzahutTestNgProject"/>
+			<item value="C:\Users\svksh\eclipse-workspace\pizzahut_project"/>
 			<item value="C:\Users\svksh\eclipse-workspace\CucumberFramework"/>
-			<item value="C:\Users\svksh\eclipse-workspace\cucumber1"/>
-			<item value="C:\Users\svksh\eclipse-workspace\Cucumber"/>
+			<item value="C:\Users\svksh\eclipse-workspace\CucumberTestNg"/>
+			<item value="C:\Users\svksh\eclipse-workspace\LexCucumber"/>
 			<item value="C:\Users\svksh\eclipse-workspace\APIAytomationProject"/>
-			<item value="C:\Users\svksh\eclipse-workspace\RestAssuredDemo"/>
-			<item value="C:\Users\svksh\eclipse-workspace\RestAssuredAPI"/>
-			<item value="C:\Users\svksh\eclipse-workspace\JunitWithSelenium"/>
-			<item value="C:\Users\svksh\eclipse-workspace\Session2Junit"/>
-			<item value="C:\Users\svksh\eclipse-workspace\Junit"/>
-			<item value="D:\simplilearn\seleniumJava\session1"/>
-			<item value="C:\Users\svksh\eclipse-workspace\TestNgDemos\src\test\java\com\simplilearn\TestNgDemos\AppTest.java"/>
-			<item value="C:\Users\svksh\eclipse-workspace\seleniumDemos"/>
-			<item value="C:\Users\svksh\eclipse-workspace\org.xtext.example.mydsl.ui.tests"/>
-			<item value="C:\Users\svksh\eclipse-workspace\selenium1"/>
-			<item value="D:\simplilearn\seleniumJava\session1\pom.xml"/>
+			<item value="C:\Users\svksh\eclipse-workspace\E-CommerceAppTestingApache"/>
+			<item value="C:\Users\svksh\eclipse-workspace\PizzaHutJunitAndCucumberTest\src\test\java\com\simplilearn\PizzaHutJunitAndCucumberTest\Features\StepDefinition.java"/>
+			<item value="C:\Users\svksh\eclipse-workspace\Cucumber"/>
+			<item value="C:\Users\svksh\eclipse-workspace\PizzaHutJunitAndCucumberTest"/>
+			<item value="C:\Users\svksh\eclipse-workspace\cucumber1"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -52,41 +52,44 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.simplilearn.PizzaHutTesting"/>
-			<item value="com.simplilearn.TDD"/>
-			<item value="com.simplilearn.cucumber1"/>
-			<item value="com.simplilearn.docker_selenium"/>
-			<item value="com.simplilearn.JenkinsJava"/>
-			<item value="com.simplilearn.APIAytomationProject"/>
-			<item value="com.simplilearn.RestAssuredDemo"/>
-			<item value="com.simplilearn.PizzaHutJunitAndCucumberTest"/>
-			<item value="com.simplilearn.JunitWithSelenium"/>
-			<item value="com.simplilearn.RestAssuredAPI"/>
-			<item value="com.simplilearn.Session2Junit"/>
-			<item value="com.simplilearn.JunitMaven"/>
-			<item value="com.simplilearn.Junit"/>
-			<item value="com.simplilearn.Session1"/>
-			<item value="com.simplilearn.SimplilearnProject"/>
+			<item value="Oracle.TestCases"/>
+			<item value="SportyShoe.SportyShoe"/>
+			<item value="infosys.EricomTestng"/>
+			<item value="com.simplilearn.CucumberFrameworkForFlyAway"/>
+			<item value="com.simplilearn.FlyAway_automation"/>
+			<item value="com.simplilearn.MedicareTestingProject"/>
+			<item value="com.simplilearn.logging_framework"/>
+			<item value="com.simplilearn.loggingFramework"/>
+			<item value="com.simplilearn.PizzahutTestNgProject"/>
+			<item value="com.simplilearn.excelTestng"/>
+			<item value="com.simplilearn.pizzahut_project"/>
+			<item value="com.simplilearn.Cucumber_E2E_Testing"/>
+			<item value="com.simplilearn.CucumberTestNg"/>
+			<item value="com.simplilearn.LexCucumber"/>
+			<item value="com.simplilearn.E_CommmerceAppTestingApacheUsingCucumber"/>
 		</list>
 		<list key="groupId">
+			<item value="Oracle"/>
+			<item value="SportyShoe"/>
+			<item value="infosys"/>
 			<item value="com.simplilearn"/>
 		</list>
 		<list key="artifactId">
-			<item value="PizzaHutTesting"/>
-			<item value="TDD"/>
-			<item value="cucumber1"/>
-			<item value="docker-selenium"/>
-			<item value="JenkinsJava"/>
-			<item value="APIAytomationProject"/>
-			<item value="RestAssuredDemo"/>
-			<item value="PizzaHutJunitAndCucumberTest"/>
-			<item value="JunitWithSelenium"/>
-			<item value="RestAssuredAPI"/>
-			<item value="Session2Junit"/>
-			<item value="JunitMaven"/>
-			<item value="Junit"/>
-			<item value="Session1"/>
-			<item value="SimplilearnProject"/>
+			<item value="TestCases"/>
+			<item value="SportyShoe"/>
+			<item value="EricomTestng"/>
+			<item value="CucumberFrameworkForFlyAway"/>
+			<item value="FlyAway_automation"/>
+			<item value="MedicareTestingProject"/>
+			<item value="logging_framework"/>
+			<item value="loggingFramework"/>
+			<item value="PizzahutTestNgProject"/>
+			<item value="excelTestng"/>
+			<item value="pizzahut_project"/>
+			<item value="Cucumber_E2E_Testing"/>
+			<item value="CucumberTestNg"/>
+			<item value="LexCucumber"/>
+			<item value="E-CommmerceAppTestingApacheUsingCucumber"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -98,6 +101,7 @@
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
+			<item value="1.0"/>
 		</list>
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
@@ -120,7 +124,55 @@
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="FlyAway.war_expanded"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="FlyAway.war_expanded"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\svksh\Downloads\Project_References\QAtoQECapstone\Ecommerce\SportyShoes\SportyShoes\SportyShoes"/>
+			<item value="C:\Users\svksh\Downloads\SampleCucumberFramework"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="flyawayCucumber"/>
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
 	</section>
 </section>

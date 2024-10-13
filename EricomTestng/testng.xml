@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="SaseUsername" value="iRemote@infosyss"></parameter>
+<parameter name="password" value="Infy@1234"></parameter>
+<parameter name="InfosysBUsername" value="iRemote@infosysb"></parameter>
+<parameter name="InfosysCTenent" value="iRemote@infosysc"></parameter>
+<parameter name="InfosysTenent" value="iRemote@infosys"></parameter>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="infosys.EricomTestng.AppTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-24T04:19:03Z" name="Surefire suite" finished-at="2024-08-24T04:19:03Z" duration-ms="38">
+    <groups>
+    </groups>
+    <test started-at="2024-08-24T04:19:03Z" name="Surefire test" finished-at="2024-08-24T04:19:03Z" duration-ms="38">
+      <class name="com.simplilearn.pizzahut_project.AppTest">
+        <test-method signature="testApp()" started-at="2024-08-24T04:19:03Z" name="testApp" finished-at="2024-08-24T04:19:03Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- com.simplilearn.pizzahut_project.AppTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

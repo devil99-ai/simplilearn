@@ -1,0 +1,17 @@
+# Created at 2024-08-24T10:03:08.399
+org.testng.TestNGException: 
+Cannot load class from file: com.mycompany.MyResultListener
+	at org.testng.internal.ClassHelper.fileToClass(ClassHelper.java:301)
+	at org.testng.TestNG.configure(TestNG.java:1552)
+	at org.testng.TestNG.configure(TestNG.java:1780)
+	at org.apache.maven.surefire.testng.conf.TestNGMapConfigurator.configure(TestNGMapConfigurator.java:51)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:147)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+
