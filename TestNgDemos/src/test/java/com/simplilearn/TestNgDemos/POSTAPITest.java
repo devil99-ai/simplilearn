@@ -1,5 +1,6 @@
 package com.simplilearn.TestNgDemos;
 
+import org.testng.annotations.Test;
 import org.hamcrest.Matchers;
 import org.testng.annotations.Test;
 

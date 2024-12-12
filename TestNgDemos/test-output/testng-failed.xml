@@ -1,13 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="3" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="3" parallel="methods" name="Test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.simplilearn.TestNgDemos.GridTest">
+      <class name="com.simplilearn.TestNgDemos.DataProviderDemo">
         <methods>
-          <include name="test2"/>
+          <include name="setUp"/>
+          <include name="testLoginWithDataProvider"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.simplilearn.TestNgDemos.GridTest -->
+      </class> <!-- com.simplilearn.TestNgDemos.DataProviderDemo -->
+      <class name="com.simplilearn.TestNgDemos.AlertHandellingTest">
+        <methods>
+          <include name="verifyAlerts"/>
+        </methods>
+      </class> <!-- com.simplilearn.TestNgDemos.AlertHandellingTest -->
+      <class name="com.simplilearn.TestNgDemos.CssSelectorMethod">
+        <methods>
+          <include name="testCssSelectorMethod"/>
+          <include name="testCssSelectorMethod1"/>
+        </methods>
+      </class> <!-- com.simplilearn.TestNgDemos.CssSelectorMethod -->
+      <class name="com.simplilearn.TestNgDemos.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TestLogin"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.simplilearn.TestNgDemos.LoginPageTest -->
+      <class name="com.simplilearn.TestNgDemos.Listenerdemo">
+        <methods>
+          <include name="testCase2"/>
+          <include name="testCase3"/>
+        </methods>
+      </class> <!-- com.simplilearn.TestNgDemos.Listenerdemo -->
+      <class name="com.simplilearn.TestNgDemos.TestScreenshot">
+        <methods>
+          <include name="runScenarioAndTakeScreenshot"/>
+        </methods>
+      </class> <!-- com.simplilearn.TestNgDemos.TestScreenshot -->
+      <class name="com.simplilearn.TestNgDemos.SkipTestDemo">
+        <methods>
+          <include name="Test3"/>
+          <include name="Test2"/>
+        </methods>
+      </class> <!-- com.simplilearn.TestNgDemos.SkipTestDemo -->
+      <class name="com.simplilearn.TestNgDemos.FrameAndAlertHandelling">
+        <methods>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.simplilearn.TestNgDemos.FrameAndAlertHandelling -->
+      <class name="com.simplilearn.TestNgDemos.XpathTestDemo">
+        <methods>
+          <include name="testCheckBoxByXPath"/>
+        </methods>
+      </class> <!-- com.simplilearn.TestNgDemos.XpathTestDemo -->
+      <class name="com.simplilearn.TestNgDemos.AmazonWebPageTesting">
+        <methods>
+          <include name="testHomepage"/>
+        </methods>
+      </class> <!-- com.simplilearn.TestNgDemos.AmazonWebPageTesting -->
+      <class name="com.simplilearn.TestNgDemos.TestDataBase">
+        <methods>
+          <include name="testDataBase"/>
+        </methods>
+      </class> <!-- com.simplilearn.TestNgDemos.TestDataBase -->
+      <class name="com.simplilearn.TestNgDemos.LocatorsIdentifiers">
+        <methods>
+          <include name="testLink"/>
+        </methods>
+      </class> <!-- com.simplilearn.TestNgDemos.LocatorsIdentifiers -->
+      <class name="com.simplilearn.TestNgDemos.TestNgGroupDemo">
+        <methods>
+          <include name="before"/>
+          <include name="testClick"/>
+          <include name="testTitle"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- com.simplilearn.TestNgDemos.TestNgGroupDemo -->
+      <class name="com.simplilearn.TestNgDemos.DragAndDropMethod">
+        <methods>
+          <include name="setUp"/>
+          <include name="testDragAndDrop"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.simplilearn.TestNgDemos.DragAndDropMethod -->
+      <class name="com.simplilearn.TestNgDemos.GmailAndYahooPageTest">
+        <methods>
+          <include name="YahooTest"/>
+          <include name="GamiTesting"/>
+        </methods>
+      </class> <!-- com.simplilearn.TestNgDemos.GmailAndYahooPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

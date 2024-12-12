@@ -1,5 +1,7 @@
 package com.simplilearn.TestNgDemos;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -23,7 +25,7 @@ public class TestNgGroupDemo {
 		String expectedTitle = "News API – Search News and Blog Articles on the Web";
 		String actualTitle = driver.getTitle();
 		
-		Assert.assertEquals(actualTitle, expectedTitle);
+		AssertJUnit.assertEquals(actualTitle, expectedTitle);
 		
 	}
 	@Test(groups = {"test2"})
@@ -34,7 +36,7 @@ public class TestNgGroupDemo {
 		String actualUrl = driver.getCurrentUrl();
 		
 		
-		Assert.assertEquals(actualUrl, expectedUrl);
+		AssertJUnit.assertEquals(actualUrl, expectedUrl);
 		
 	}
 	@AfterTest

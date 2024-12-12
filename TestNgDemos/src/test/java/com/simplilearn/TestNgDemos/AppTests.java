@@ -1,5 +1,7 @@
 package com.simplilearn.TestNgDemos;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -18,6 +20,7 @@ public class AppTests {
 	public void testCase() {
 		driver.get("https://simplilearn.net/");
 	}
+	@AfterMethod
 	@AfterTest
 	public void tearDown() {
 		driver.close();

@@ -1,5 +1,7 @@
 package com.simplilearn.TestNgDemos;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -17,7 +19,7 @@ public class GetAPIRequest {
 				
 	RestAssured.given().contentType(ContentType.JSON).baseUri("https://restful-booker.herokuapp.com/booking").when().get().then().assertThat().statusCode(200).header("Content-Type","application/json; charset=utf-8").extract().response();
 		
-	Assert.assertTrue(response.getBody().asString().contains("bookingid"));	
+	AssertJUnit.assertTrue(response.getBody().asString().contains("bookingid"));	
 	//System.out.println(response);
 	}
 }

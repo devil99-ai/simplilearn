@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.simplilearn.TestNgDemos.POSTAPITest"/>
+      <class name="com.simplilearn.TestNgDemos.AmazonWebPageTesting"/>
+      <class name="com.simplilearn.TestNgDemos.DragAndDropMethod"/>
+      <class name="com.simplilearn.TestNgDemos.Listenerdemo"/>
+      <class name="com.simplilearn.TestNgDemos.ScreenshotCode"/>
+      <class name="com.simplilearn.TestNgDemos.TestNgAnnotations"/>
+      <class name="com.simplilearn.TestNgDemos.CssSelectorMethod"/>
+      <class name="com.simplilearn.TestNgDemos.SkipTestDemo"/>
+      <class name="com.simplilearn.TestNgDemos.softhardAssert"/>
+      <class name="com.simplilearn.TestNgDemos.LoginPageTest"/>
+      <class name="com.simplilearn.TestNgDemos.TestCaseDemo"/>
+      <class name="com.simplilearn.TestNgDemos.GetAPIRequest"/>
+      <class name="com.simplilearn.TestNgDemos.LocatorsIdentifiers"/>
+      <class name="com.simplilearn.TestNgDemos.TestDataBase"/>
+      <class name="com.simplilearn.TestNgDemos.AlertHandelling"/>
+      <class name="com.simplilearn.TestNgDemos.GmailAndYahooPageTest"/>
+      <class name="com.simplilearn.TestNgDemos.XpathTestDemo"/>
+      <class name="com.simplilearn.TestNgDemos.TestScreenshot"/>
+      <class name="com.simplilearn.TestNgDemos.TestNgGroupDemo"/>
+      <class name="com.simplilearn.TestNgDemos.FrameAndAlertHandelling"/>
+      <class name="com.simplilearn.TestNgDemos.AppTests"/>
+      <class name="com.simplilearn.TestNgDemos.DataProviderDemo"/>
+      <class name="com.simplilearn.TestNgDemos.AlertHandellingTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

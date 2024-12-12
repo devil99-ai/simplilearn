@@ -1,5 +1,8 @@
 package com.simplilearn.TestNgDemos;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -22,9 +25,10 @@ public class LoginPageTest {
 	@Test
 	public void TestLogin() {
 		boolean loginResult = Page.loginuser("tushar6749@gmail.com", "tushar6749@gmail.com");
-		Assert.assertTrue(loginResult);
+		AssertJUnit.assertTrue(loginResult);
 	}
 	
+	@AfterMethod
 	@AfterTest
 	public void tearDown() {
 		driver.quit();

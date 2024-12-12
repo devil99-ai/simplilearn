@@ -1,5 +1,9 @@
 package com.simplilearn.TestNgDemos;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -22,6 +26,7 @@ public class DataProviderDemo {
 		return credentials;
 	
 	}
+	@BeforeMethod
 	@BeforeTest
 	public void setUp() {
 		WebDriverManager.chromedriver().setup();
@@ -31,8 +36,9 @@ public class DataProviderDemo {
 	@Test(dataProvider="login-data-provider")
 	public void testLoginWithDataProvider(String email, String password) {
 		boolean loginResult = Page.loginuser(email, password);
-		Assert.assertTrue(loginResult);
+		AssertJUnit.assertTrue(loginResult);
 	}
+	@AfterMethod
 	@AfterTest
 	public void tearDown() {
 		driver.quit();

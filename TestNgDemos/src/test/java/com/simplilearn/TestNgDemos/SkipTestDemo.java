@@ -1,5 +1,6 @@
 package com.simplilearn.TestNgDemos;
 
+import org.testng.annotations.Test;
 import org.testng.SkipException;
 import org.testng.annotations.Test;
 

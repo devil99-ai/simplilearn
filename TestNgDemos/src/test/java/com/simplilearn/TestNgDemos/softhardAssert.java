@@ -1,6 +1,8 @@
 package com.simplilearn.TestNgDemos;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.asserts.Assertion;
 import org.testng.asserts.SoftAssert;
 
@@ -12,16 +14,16 @@ public class softhardAssert {
 	
 	@Test
 	public void hardAssertTest() {
-		hardAssert.assertTrue(true==true);
-		hardAssert.assertTrue("softhardAssert"=="softhardAssert");
-		hardAssert.assertEquals(className, "softhardAssert");
+		AssertJUnit.assertTrue(true==true);
+		AssertJUnit.assertTrue("softhardAssert"=="softhardAssert");
+		AssertJUnit.assertEquals(className, "softhardAssert");
 		System.out.println("hardAsserttest Successfully passed !!");
 	}
 	@Test
 	public void softAssertTest() {
-		softAssert.assertTrue(true==true);
-		softAssert.assertTrue("softhardAssert"=="softhardAssert");
-		softAssert.assertEquals(className, "softhardAssert");
+		AssertJUnit.assertTrue(true==true);
+		AssertJUnit.assertTrue("softhardAssert"=="softhardAssert");
+		AssertJUnit.assertEquals(className, "softhardAssert");
 		System.out.println("softAssertTest successfully passed !!");
 		softAssert.assertAll();
 	}

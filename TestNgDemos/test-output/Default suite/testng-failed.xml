@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.simplilearn.TestNgDemos.GridTest">
+      <class name="com.simplilearn.TestNgDemos.AppTest">
         <methods>
-          <include name="test"/>
+          <include name="closeBrowser"/>
+          <include name="verifyHomePageTitile"/>
+          <include name="launchBrowser"/>
         </methods>
-      </class> <!-- com.simplilearn.TestNgDemos.GridTest -->
+      </class> <!-- com.simplilearn.TestNgDemos.AppTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

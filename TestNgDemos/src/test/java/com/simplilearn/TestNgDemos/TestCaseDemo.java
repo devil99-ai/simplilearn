@@ -1,5 +1,7 @@
 package com.simplilearn.TestNgDemos;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -23,7 +25,7 @@ public class TestCaseDemo {
 		driver.get(url);
 		String actualTitle = driver.getTitle();
 		String expectedTitle = "News API – Search News and Blog Articles on the Web";
-		Assert.assertEquals(actualTitle, expectedTitle);
+		AssertJUnit.assertEquals(actualTitle, expectedTitle);
 	}
 	@AfterMethod
 	void destroy() {
